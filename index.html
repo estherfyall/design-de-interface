@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Exemplo 5</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .cartao {
+            border: 1px #bab8b8 solid;
+            width: 20rem;
+            margin: 1rem auto;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 1rem;
+        }
+
+        img {
+            width: 18rem;
+            height: auto;
+            margin: 0.5rem 1rem;
+        }
+        h1,p,footer {
+            margin: 1rem;
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            width: 5rem;
+            padding: 0.5rem;
+            border: none;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Cabeçalho 1</h1>
-    <h2>Sub Cabeçalho 2</h2>
-    <h3>Sub Cabeçalho 3</h3>
-    <p>Este é meu primeiro parágrafo.</p>
-    <p>Este é meu segundo parágrafo.</p>
-    <div style="background: skyblue;">
-        Conteúdo da <span style="color: red">div</span>.
+    <div class="cartao">
+        <h1 class="titulo">i love phoebe bridgers</h1>
+        <div class="corpo">
+            <img src="phoebe bridgers.jpg" alt="" class="imagem" height="400rem" width="350rem">
+            <p>i really love phoebe bridgers
+            </p>
+        </div>
+        <footer class="rodape">
+            <a href="Curriculo.html">Curriculo</a>
+            <button>ok</button>
+        </footer>
     </div>
 </body>
 
